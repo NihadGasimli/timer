@@ -49,15 +49,21 @@
 #laps{
     position: absolute;
     height: 98vh;
+    overflow-y: auto;
     width: 200px;
     left: 1319px;
     box-sizing: border-box;
+    border-radius: 20px 0px 0px 20px;
+    border: 5px solid #7F574D;
     display: flex;
     flex-direction: column;
     padding-left: 10px;
     text-align: center;
 }
-
+#laaps{
+    max-height: 98vh;
+    overflow-y: auto;
+}
 #lapsText{
     color: #7F574D;
 }
